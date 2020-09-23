@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+.container {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 590px) {
+  .container {
+    margin-bottom: 3rem;
+  }
+}
+
+.h1 {
+  /* color: rgb(255, 255, 255); */
+  font-size: 1.6rem !important;
+  font-weight: 500 !important;
+}
+
+.h2 {
+  padding: 0.5rem 0;
+  font-size: 0.8rem !important;
+}
+
+.card {
+  margin: 0.5rem 1rem !important;
+}
+
+@keyframes loading {
+}
+.blueBg,
+.greenBg,
+.redBg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 4px !important;
+  color: rgb(235, 235, 235);
+}
+.blueBg {
+  background-color: rgb(13, 75, 116);
+}
+
+.greenBg {
+  background-color: rgb(9, 114, 53);
+}
+
+.redBg {
+  background-color: rgb(206, 41, 19);
+}
+
+.infected {
+  position: relative !important;
+  border-radius: 5px !important;
+  border-bottom: 8px solid rgb(20, 147, 231);
+  /* box-shadow: 0 0.5rem 10px rgba(201, 201, 201, 0.616) !important; */
+}
+
+.recovered {
+  border-radius: 5px !important;
+  border-bottom: 8px solid rgb(15, 189, 15);
+  /* box-shadow: 0 0.5rem 10px rgba(201, 201, 201, 0.616) !important; */
+}
+
+.deaths {
+  border-radius: 5px !important;
+  overflow: hidden;
+  border-bottom: 8px solid rgb(255, 79, 79);
+  /* box-shadow: 0 0.5rem 10px rgba(201, 201, 201, 0.616) !important; */
+}

@@ -1,0 +1,15 @@
+.formControl {
+  border-radius: 5px;
+  background-color: #fff;
+  color: #fff;
+  margin-top: 1rem !important;
+  max-width: 50vw !important;
+  margin-bottom: 3rem !important;
+}
+
+@media (max-width: 590px) {
+  .formControl {
+    margin-top: 1rem !important;
+    max-width: 70vw !important;
+  }
+}

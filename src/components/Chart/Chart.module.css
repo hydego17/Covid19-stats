@@ -1,0 +1,16 @@
+.container {
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245) !important;
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 3rem !important;
+}
+
+@media (max-width: 770px) {
+  .container {
+    border-radius: 0;
+    width: 100%;
+  }
+}
