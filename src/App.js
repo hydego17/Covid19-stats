@@ -5,7 +5,6 @@ import styles from "./App.module.css";
 import { fetchData } from "./api";
 
 import covidImg from "./images/virus.svg";
-import image from "./images/image1.jpg";
 
 class App extends React.Component {
   state = {
@@ -41,12 +40,15 @@ class App extends React.Component {
           <span>
             {" "}
             Sourced from:{" "}
-            <a href="https://covid19.mathdro.id/api" target="_blank">
+            <a
+              href="https://covid19.mathdro.id/api"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               https://covid19.mathdro.id/api
             </a>
           </span>
         </div>
-        {/* <img className={styles.img} src={image}></img> */}
       </div>
     );
   }
