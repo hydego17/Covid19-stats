@@ -40,11 +40,7 @@ class App extends React.Component {
           <span>
             {" "}
             Sourced from:{" "}
-            <a
-              href="https://covid19.mathdro.id/api"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://covid19.mathdro.id/api" target={"_blank"}>
               https://covid19.mathdro.id/api
             </a>
           </span>
