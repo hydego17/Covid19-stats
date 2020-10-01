@@ -1,3 +1,8 @@
+.desc {
+  color: rgb(31, 31, 31);
+  text-align: center;
+}
+
 .container {
   border-radius: 10px;
   background-color: rgb(245, 245, 245) !important;
